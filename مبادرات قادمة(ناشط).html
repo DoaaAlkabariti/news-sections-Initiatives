@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <title>عرض المبادرات القادمة (ناشط )</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/nprogress.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/bootstrap-rtl.css">
+
+  <style media="screen">
+    body,
+    h3,
+    h2,
+    h6,
+    p {
+      font-family: 'El Messiri', sans-serif;
+
+    }
+
+    .required-amount {
+      padding: 15px 30px;
+      background: #c4233d;
+      float: left;
+
+    }
+
+    .required-amount::before {
+      display: none;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 20px;
+    }
+
+    .progress {}
+
+    .cause-meta .progress {
+      height: 10px;
+      width: 350px;
+    }
+
+    .donate-me {
+      float: left;
+      background: #c4233d;
+      border-radius: 20px;
+    }
+
+    .cause-meta>h2 a {
+      float: center;
+    }
+
+    .cause-meta>h2 a {
+      margin-right: 30px;
+    }
+
+    h1 {
+      margin: 25px;
+    }
+
+    .progress-bar {
+      background: gray;
+    }
+
+    .caro-unit {
+      border: 1px solid gray;
+      border-radius: 20px;
+    }
+
+    .jp-current {
+      background: #c4233d !important;
+
+    }
+
+    .holder a:hover,
+    .holder2 a:hover,
+      {
+      background: #c4233d;
+
+    }
+
+    .jp-next:hover {
+      background: #c4233d;
+
+    }
+
+    body {
+      background: #F0F0F0;
+    }
+    .nav-link:hover {
+      color: #c4233d;
+      border-bottom:1px solid #c4233d;
+    }
+
+    .pag {
+      float: center !important;
+      font-size: 20px;
+    }
+
+    input[type=text] {
+      width: 350px;
+      border-radius: 20px;
+      padding: 5px;
+      margin-bottom: 10px;
+      height: 50px;
+
+    }
+
+    input[type=date] {
+      width: 170px;
+      border-radius: 20px;
+      padding: 5px;
+      margin-bottom: 10px;
+      height: 50px;
+    }
+
+    .for {
+      height: 50px;
+      border-radius: 20px;
+      padding: 5px;
+      margin-bottom: 15px;
+      background: white;
+    }
+
+    .butn{
+      width: 100px;
+      height:50px;
+      border-radius: 20px
+
+    }
+    @media (min-width: 768px){
+.navbar-nav{
+  float: left;
+}
+}
+.navbar{
+background:black;
+height:100px ;
+}
+.gap{
+  margin-top: -50px;
+}
+.nav-link {
+  margin: 10px;
+  color:white;
+}
+  </style>
+</head>
+
+<body>
+<!--************************************** nav start************************************-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img alt="Maan Logo" src="images/logo.svg" style="width:180px;height:60px">
+    <!-- <span style="color:white">مركز العمل التنموي معا</span> -->
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#"> الرئيسية<span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">من نحن</a>
+      <a class="nav-item nav-link" href="#">المبادرات</a>
+      <a class="nav-item nav-link" href="#">آخر الأخبار</a>
+      <a class="nav-item nav-link" href="#">المبادرات</a>
+      <a class="nav-item nav-link" href="#">تجارب ملهمة</a>
+      <a class="nav-item nav-link" href="#">تواصل معنا</a>
+      <a style="margin-right: 5px;border:1px solid #c4233d;background:#f3f3f2;padding:15px;margin-top:12px;margin-left:5px;border-radius:20px;color:black" class="" href="index.php">انشاء حساب</a><
+      <a style="border:1px solid #c4233d;background:#f3f3f2;padding:15px;margin-top:12px;border-radius:20px;color:black" class="" href="index.php">تقديم تبرع</a>
+      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+    </div>
+  </div>
+</nav>
+    <!--******************************************* Initiatives start ***************************  -->
+    <div class="site-layout">
+
+    <section>
+      <div class="gap">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col text-center">
+              <h1>عرض المبادرات  القادمة (ناشط)</h1>
+            </div>
+          </div>
+        </div>
+        <form class="" action="index.html" method="post">
+          <!-- 1 -->
+          <div class="container ">
+            <div class="row  ">
+              <div class="col-md-4 ">
+                <input type="text" name="" value="" style="" placeholder="ابحث في العنوان أو اسم المنشط أو اسم الفريق">
+              </div>
+              <div class="col-md-2 ">
+                <input name="interest" list="interest" class="for" placeholder="فرز حسب الاهتمامات">
+                <datalist id="interest">
+                  <option value="دعم خدمات التعليم">
+                  </option>
+                  <option value="دعم خدمات الصحة">
+                  </option>
+                  <option value="دعم خدمات الدعم النفسي والإجتماعي">
+                  </option>
+                  <option value="دعم تمثيل الشباب داخل المخيمات">
+                  </option>
+                  <option value="دعم البنية التحتية">
+                  </option>
+                </datalist>
+              </div>
+              <div class="col-md-2 ">
+                <input name="country" list="country" class="for" placeholder="جميع المحافظات">
+                <datalist id="country">
+                  <option value="غزة ">
+                  </option>
+                  <option value="الشمال">
+                  </option>
+                  <option value="رفح">
+                  </option>
+                  <option value="خانيونس">
+                  </option>
+                  <option value="الوسطى">
+                  </option>
+                </datalist>
+              </div>
+              <div class="col-md-2 ">
+                <input name="city" list="city" class="for" placeholder="جميع المدن">
+                <datalist id="city">
+                  <option value="غزة ">
+                  </option>
+                  <option value="بني سهيلة">
+                  </option>
+                  <option value="رفح">
+                  </option>
+                  <option value="الفخاري ">
+                  </option>
+                  <option value="بيت حانون">
+                  </option>
+                  <option value="جباليا">
+                  </option>
+                </datalist>
+              </div>
+              <div class="col-md-2 ">
+                <input name="ii" list="ii" class="for" placeholder="حسب التمويل">
+                <datalist id="ii">
+                  <option value="بحاجة لتمويل">
+                  </option>
+                  <option value="لا تحتاج الى تمويل">
+                  </option>
+                </datalist>
+              </div>
+            </div>
+          </div>
+          <!--  2-->
+          <div class="container ">
+            <div class="row  ">
+              <div class="col-md-1">
+                <label for="">تاريخ العمل</label>
+              </div>
+              <div class="col-md-2 ">
+                <input type="date" name="" value="" style="">
+              </div>
+              <div class="col-md-1">
+                <label for="">تاريخ البدء/من</label>
+              </div>
+              <div class="col-md-2">
+                <input type="date" name="" value="">
+              </div>
+              <div class="col-md-1">
+                <label for="">تاريخ الانتهاء/ الى</label>
+              </div>
+              <div class="col-md-2">
+                <input type="date" name="" value="">
+              </div>
+              <div class="cl-md-2">
+                <button type="button" name="button" class="butn">بحث</button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="container">
+          <div class="row ">
+            <div class="our-cause remove-ext-50 loader-data" id="itemContainer">
+              <!--  1-->
+              <div class="col-sm-4">
+                <div class="caro-unit fadein">
+                  <div class="cause-avatar">
+                    <a href="single-cause.html" title=""><img src="images/100.jpg" alt=""></a>
+                    <div class="required-amount">
+                      <span>1</span>
+                    </div>
+                  </div>
+                  <div class="cause-meta">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                      </div>
+                    </div>
+                    <span>40%</span>
+                    <h2><a href="single-cause.html" title="" style="float:center!important;margin-right:20px;">مبادرة تحسين التعليم</a></h2>
+                    <p>
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                    </p>
+                    <a href="donation-page.html" title="" class="donate-me" data-ripple="">تفاصيل المبادرة</a>
+                  </div>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="col-sm-4">
+                <div class="caro-unit fadein">
+                  <div class="cause-avatar">
+                    <a href="single-cause.html" title=""><img src="images/101.jpg" alt=""></a>
+                    <div class="required-amount">
+                      <span>2</span>
+                    </div>
+                  </div>
+                  <div class="cause-meta">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                      </div>
+                    </div>
+                    <span>40%</span>
+                    <h2><a href="single-cause.html" title="">مبادرة الشباب المبدع</a></h2>
+                    <p>
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                    </p>
+                    <a href="donation-page.html" title="" class="donate-me" data-ripple="">تفاصيل المبادرة</a>
+                  </div>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="col-sm-4">
+                <div class="caro-unit fadein">
+                  <div class="cause-avatar">
+                    <a href="single-cause.html" title=""><img src="images/102.jpg" alt=""></a>
+                    <div class="required-amount">
+                      <span>3</span>
+                    </div>
+                  </div>
+                  <div class="cause-meta">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                      </div>
+                    </div>
+                    <span>40%</span>
+                    <h2><a href="single-cause.html" title="">مبادرة معا نرتقي</a></h2>
+                    <p>
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                    </p>
+                    <a href="donation-page.html" title="" class="donate-me" data-ripple="">تفاصيل المبادرة</a>
+                  </div>
+                </div>
+              </div>
+              <!--4  -->
+              <div class="col-sm-4">
+                <div class="caro-unit fadein">
+                  <div class="cause-avatar">
+                    <a href="single-cause.html" title=""><img src="images/103.jpg" alt=""></a>
+                    <div class="required-amount">
+                      <span>4</span>
+                    </div>
+                  </div>
+                  <div class="cause-meta">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                      </div>
+                    </div>
+                    <span>40%</span>
+                    <h2><a href="single-cause.html" title="">مبادرة تحسين التعليم </a></h2>
+                    <p>
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                    </p>
+                    <a href="donation-page.html" title="" class="donate-me" data-ripple="">تفاصيل المبادرة</a>
+                  </div>
+                </div>
+              </div>
+              <!-- 5 -->
+              <div class="col-sm-4">
+                <div class="caro-unit fadein">
+                  <div class="cause-avatar">
+                    <a href="single-cause.html" title=""><img src="images/104.jpg" alt=""></a>
+                    <div class="required-amount">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <div class="cause-meta">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                      </div>
+                    </div>
+                    <span>40%</span>
+                    <h2><a href="single-cause.html" title="">مبادرة معا نرتقي</a></h2>
+                    <p>
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                    </p>
+                    <a href="donation-page.html" title="" class="donate-me" data-ripple="">تفاصيل المبادرة</a>
+                  </div>
+                </div>
+              </div>
+              <!--6  -->
+              <div class="col-sm-4">
+                <div class="caro-unit fadein">
+                  <div class="cause-avatar">
+                    <a href="single-cause.html" title=""><img src="images/105.jpg" alt=""></a>
+                    <div class="required-amount">
+                      <span>6</span>
+                    </div>
+                  </div>
+                  <div class="cause-meta">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                      </div>
+                    </div>
+                    <span>40%</span>
+                    <h2><a href="single-cause.html" title="">مبادرة الشباب المبدع</a></h2>
+                    <p>
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                      هنا يضاف نص يحتوي على تفاصيل عن المبادرة
+                    </p>
+                    <a href="donation-page.html" title="" class="donate-me" data-ripple="">تفاصيل المبادرة</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- pagination div -->
+          <div class="row  " style="margin-top:50px;">
+            <div class="col-sm-5"></div>
+            <div class="col-sm-4">
+              <a href="#" class="pag">pagination</a>
+            </div>
+            <div class="col-sm-4"></div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+  </section>
+  <!--***************************************** Initiatives end ************************  -->
+  <!--***************************************** footer start ***************************  -->
+  <footer>
+    <div class="copyRight" style="background:black;opacity:.8;height:55px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <p style="color:white;text-align:center;padding-top:20px;">جميع الحقوق محفوظة لمركز العمل التنموي - معا © 2019 ||
+              <a href="http://www.alhamsco.com" target="_blank" alt="الهمص للتكنولوجيا والتدريب"><img src="images/7777.png" style="width:30px;height:30px;margin-right:5px;margin-left:5px;margin-top:-10px;"></a>POWERED BY
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--******************************* footer end ***************************************  -->
+  <!--******************************* scripts start ************************************  -->
+  <script src="js/jquery3.3.1.js"></script>
+  <script src="js/nprogress.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

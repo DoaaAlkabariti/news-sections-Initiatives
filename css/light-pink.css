@@ -1,0 +1,239 @@
+/*=========================
+	FONT COLOR
+=========================*/
+.main-menu > ul > li::before, .main-menu > div > ul > li::before,
+.donate-news > span > i,
+.address-tooltip ul li i,
+.heading-1 > h4 span,
+.heading-2 h4 span,
+.heading-3 > h4 span,
+.cause-meta > h2 a:hover,
+.cause-meta > span,
+.owl-nav .owl-prev:hover:before,
+.owl-nav .owl-next:hover:before,
+.paralex-section > h2,
+.news-info > span,
+.col-title h4 span,
+.banner > h2 span,
+.event-meta > span,
+.event-meta > h2:hover,
+.services-icon > i,
+.services-meta > h2,
+.la-gallery > li a.selected,
+.testi-admin li.active > span,
+.story-meta > span > i,
+.story-meta > span em,
+.mission-count > p,
+.comp-meta > span,
+.urgent-cause > span,
+h2.ongoing-title:hover,
+.best-volunteer > span a,
+.best-volunteer > h2:hover,
+.page-title > span,
+.post-date > li a,
+.listing-meta > h2:hover,
+.category > li:hover,
+.latest-meta > h2:hover,
+.comment-detail > i,
+.tags-in > span,
+.comments-title i,
+.post-time > li a:hover,
+.wizard li.active a p,
+.wizardform-title > span,
+.event-orginizer ul li,
+.spokes-men-caro li em,
+.main-menu > ul > li:hover > a,
+.main-menu > div > ul > li:hover > a,
+.project-info > span,
+.paralex-section.half > span,
+.testi-classic > span a,
+.coming-meta h4 span,
+.error h4 span,
+.error h2 span,
+.error > span,
+.search-found h2 span,
+.twiter-post > i,
+.twiter-post > p a,
+.contact-us > ul li i,
+.banner-detail h2 span,
+.review-meta > p::first-letter,
+.video-post > h4:hover,
+.top-donors li a:hover,
+.branch ul li i,
+.anouncment-meta > h2:hover,
+.anouncment-meta > p i,
+.main-menu > ul > li ul li a:hover strong, 
+.main-menu > div > ul > li ul li a:hover strong,
+.drop-caps.style6 > span,
+.drop-caps.style10 > span,
+.tab-meta > h4,
+.ziehharmonika.style2 .accordion-title.active .collapseIcon,
+.layer-text,
+.responsive-menu ul li a:hover,
+.team-info:hover h4,
+.team-info:hover span,
+.shareon > ul li a:hover,
+.caro-meta > h4,
+.donation-appeal > h3 span
+{
+	color:#ff8a65;	
+}
+
+
+/*--- important color ---*/
+.useful-links > li > a:hover,
+.ziehharmonika.style3 .accordion-title.active:after,
+.ziehharmonika.style3 .accordion-title.active
+{
+	color:#ff8a65 !important;	
+}
+
+
+
+
+
+
+
+
+
+
+/*=========================
+	BACKGROUND COLOR
+=========================*/
+a.be-Volunteer-btn,
+.nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus,
+header.style3 .topbar,
+header.style5 .topbar,
+header.transparent .topbar,
+header.style4 .social-links > li a:hover,
+.stories-btn,
+.donate-btn,
+.home-icon, 
+.black .search-btn,
+.main-menu > ul > li > ul li:hover,
+.main-menu > div > ul > li > ul li:hover,
+.heading-1 > h4::before,
+.success-stories li span,
+.pointer span,
+.subscribe-us button,
+.required-amount,
+.donate-me,
+.button-large,
+.button-medium,
+.button-small,
+.volunteer-banner,
+.news-title > h4::before,
+.become-valante,
+#nprogress .bar,
+.paralex-style .services-icon > i,
+.socials > li a,
+.total,
+.walfare-info,
+.walfare-caro .owl-next,
+.walfare-caro .owl-prev,
+.best-volunteer .socials li a:hover,
+.page-top::before,
+.pagintion > ul li a:hover,
+.tags-cloud > li a:hover,
+.contact-form form button,
+.comment-detail > a.reply,
+.comments-title:before,
+.latest-avatar a span,
+.progrez-bar > span,
+.csuse-info,
+.wizard li.active span.round-tab,
+.pay-carrier li a:hover,
+.wizard-btn,
+.date-left > span,
+.language-select > ul li a:hover,
+.col-title > h4::before,
+.countdown.style2 .day,
+.pay-carrier li.active a,
+.holder a:hover,
+.holder2 a:hover,
+.light-bodr:hover,
+.greenish:before,
+.team-detail,
+.back,
+.iconic-tab .tab-btn li.active a,
+.error form button,
+.search-found form button,
+.video-widget::before,
+.anouncment-meta li a:hover,
+.anoun-avatar,
+.main-menu > ul > li ul li a strong, 
+.main-menu > div > ul > li ul li a strong,
+.drop-caps > span,
+.drop-caps.style3 > span,
+.drop-caps.style8 > span,
+.vertical-tabs .tab-btn li.active a,
+.ziehharmonika.style5 .accordion-title.active .collapseIcon,
+.panel-icon,
+.xl-btn,
+.lg-btn,
+.med-btn,
+.small-btn,
+.layer-button,
+.responsive-menu .little-info > li i,
+.widget-title:before 
+{
+	background:#ff8a65;	
+}
+
+.jp-current,
+.accordion-title.active
+{
+	background-color:#ff8a65 !important;	
+}
+.progress-bar{
+	background-color:#ff8a65;	
+}
+
+
+
+/*=========================
+	BORDER COLOR
+=========================*/
+
+.main-menu > ul > li ul,
+.main-menu > div > ul > li ul,
+.transparent .main-menu > ul > li > ul li:hover,
+.transparent .main-menu > div > ul > li > ul li:hover,
+.news-letter,
+.bottombar,
+.caro-unit,
+.news-info,
+.la-gallery > li a.selected,
+.blog-post,
+.listing-meta,
+.light-bodr:hover,
+.iconic-tab .tab-btn li.active a,
+.anouncment-meta li a:hover,
+.drop-caps.style6 > span
+{
+	border-color:#ff8a65;
+}
+
+.ziehharmonika.style3 .accordion-title.active{
+	border-color:#ff8a65 !important;	
+}
+
+
+.main-menu > ul > li ul li:hover,
+.main-menu > div > ul > li ul li:hover{
+	border-bottom-color:#ff8a65;
+}
+
+
+.required-amount::before,
+#nprogress .spinner-icon{
+	border-left-color:#ff8a65;	
+}
+#nprogress .spinner-icon,
+.ziehharmonika .active .arrowDown
+{
+	border-top-color:#ff8a65;		
+}
+footer.strip:before{
+	border-right-color:	#ff8a65;
+}

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <title>عرض أخبار القسم</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/nprogress.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/bootstrap-rtl.css">
+  <style media="screen">
+    body,
+    h3,
+    h2,
+    h6,
+    p {
+      font-family: 'El Messiri', sans-serif;
+
+    }
+
+    .required-amount {
+      padding: 15px 30px;
+      background: #c4233d;
+      float: left;
+
+    }
+
+    .required-amount::before {
+      display: none;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 20px;
+    }
+
+    .progress {}
+
+    .cause-meta .progress {
+      height: 10px;
+      width: 350px;
+    }
+
+    .donate-me {
+      float: left;
+      background: #c4233d;
+      border-radius: 20px;
+    }
+
+    .cause-meta>h2 a {
+      float: center;
+    }
+
+    /* .our-cause > div{
+    border: 1px solid rgba(125,125,125,.5);
+  } */
+    .cause-meta>h2 a {
+      margin-right: 30px;
+    }
+
+    h1 {
+      margin: 25px;
+    }
+
+    .progress-bar {
+      background: gray;
+    }
+
+    .caro-unit {
+      border: 1px solid gray;
+      border-radius: 20px;
+    }
+
+    .jp-current {
+      background: #c4233d !important;
+
+    }
+
+    .holder a:hover,
+    .holder2 a:hover,
+      {
+      background: #c4233d;
+
+    }
+
+    .jp-next:hover {
+      background: #c4233d;
+
+    }
+
+    body {
+      background: #F0F0F0;
+    }
+    .pag {
+      float: center !important;
+      font-size: 20px;
+    }
+
+    input[type=text] {
+      width: 350px;
+      border-radius: 20px;
+      padding: 5px;
+      margin-bottom: 10px;
+      height: 50px;
+
+    }
+
+    input[type=date] {
+      width: 170px;
+      border-radius: 20px;
+      padding: 5px;
+      margin-bottom: 10px;
+      height: 50px;
+    }
+
+    .form-control {
+      height: 50px;
+      border-radius: 20px;
+      padding: 5px;
+      margin-bottom: 15px;
+      background: white;
+    }
+
+    .butn {
+      width: 100px;
+      height: 50px;
+      border-radius: 20px
+    }
+
+    @media (min-width: 768px) {
+      .navbar-nav {
+        float: left;
+      }
+    }
+
+    .navbar {
+      background: black;
+      height: 100px;
+    }
+
+    .gap {
+      margin-top: -50px;
+    }
+
+    .nav-link {
+      margin: 10px;
+      color: white;
+    }
+    .nav-link:hover {
+      color: #c4233d;
+      border-bottom:1px solid #c4233d;
+    }
+    h2{
+      margin-top: 20px;
+      margin-right: 60px;
+    }
+    .pag {
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!--************************************** nav start************************************-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img alt="Maan Logo" src="images/logo.svg" style="width:180px;height:60px">
+      <!-- <span style="color:white">مركز العمل التنموي معا</span> -->
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#"> الرئيسية<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">من نحن</a>
+        <a class="nav-item nav-link" href="#">المبادرات</a>
+        <a class="nav-item nav-link" href="#">آخر الأخبار</a>
+        <a class="nav-item nav-link" href="#">المبادرات</a>
+        <a class="nav-item nav-link" href="#">تجارب ملهمة</a>
+        <a class="nav-item nav-link" href="#">تواصل معنا</a>
+        <a style="margin-right: 5px;border:1px solid #c4233d;background:#f3f3f2;padding:15px;margin-top:12px;margin-left:5px;border-radius:20px;color:black" class="" href="index.php">انشاء حساب</a><
+        <a style="border:1px solid #c4233d;background:#f3f3f2;padding:15px;margin-top:12px;border-radius:20px;color:black" class="" href="index.php">تقديم تبرع</a>
+        <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+      </div>
+    </div>
+  </nav>
+  <!--*************************** news start ********************************************  -->
+  <div class="site-layout">
+    <section>
+
+      <div class="gap">
+        <div class="container">
+
+          <div class="row justify-content-center">
+            <div class="col text-center">
+              <h1>عرض أخبار القسم</h1>
+            </div>
+          </div>
+        </div>
+        <form class="" action="index.html" method="post">
+          <!-- 1 -->
+          <div class="container ">
+            <div class="row  ">
+              <div class="col-md-4 ">
+                <input type="text" name="" value="" style="" placeholder="ابحث في عنوان الخبر">
+              </div>
+              <div class="col-md-2 ">
+                <input name="sections" list="sections" class="form-control" placeholder="جميع الأقسام">
+                <datalist id="sections">
+                  <option value="تجارب ملهمة">
+                  </option>
+                  <option value="الأخبار">
+                  </option>
+                </datalist>
+              </div>
+              <div class="col-md-2 ">
+                <input name="Initiatives" list="Initiatives" class="form-control" placeholder="جميع المبادرات">
+                <datalist id="Initiatives">
+                  <option value="مبادرات نوعية ">
+                  </option>
+                  <option value="رمضان الخير">
+                  </option>
+                </datalist>
+              </div>
+              <div class="col-md-2 ">
+                <input name="accept" list="accept" class="form-control" placeholder="القبول">
+                <datalist id="accept">
+                  <option value="مقبول">
+                  </option>
+                  <option value="لم ينشر">
+                  </option>
+
+                </datalist>
+              </div>
+              <div class="col-md-2 ">
+                <div class="cl-md-2">
+                  <button type="button" name="button" class="butn">بحث</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+
+
+        <div class="container">
+
+          <div class="row">
+            <div class="our-cause remove-ext-50 loader-data" id="itemContainer">
+              <div class="col-sm-4">
+                <div class="caro-unit fadein">
+                  <div class="cause-avatar">
+                    <a href="single-cause.html" title=""><img src="images/100.jpg" alt=""></a>
+                    <div class="required-amount">
+                      <span>1</span>
+                    </div>
+                  </div>
+                  <div class="cause-meta">
+
+                    <h2><a href="single-cause.html" title="" style="margin-right:130px;margin-top:20px;padding:10px">خبر عاجل</a></h2>
+                    <p>
+                      هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                      هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                      هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                    </p>
+                    <a href="donation-page.html" title="" class="donate-me" data-ripple="">عرض الخبر</a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="caro-unit fadein">
+                  <div class="cause-avatar">
+                    <a href="single-cause.html" title=""><img src="images/101.jpg" alt=""></a>
+                    <div class="required-amount">
+                      <span>2</span>
+                    </div>
+                  </div>
+                  <div class="cause-meta">
+
+                    <h2><a href="single-cause.html" title="" style="margin-right:130px;margin-top:20px;padding:10px">خبر عاجل</a></h2>
+                    <p>
+                      هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                      هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                      هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                    </p>
+                    <a href="donation-page.html" title="" class="donate-me" data-ripple="">عرض الخبر</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="caro-unit fadein">
+                  <div class="cause-avatar">
+                    <a href="single-cause.html" title=""><img src="images/102.jpg" alt=""></a>
+                    <div class="required-amount">
+                      <span>3</span>
+                    </div>
+                  </div>
+                  <div class="cause-meta">
+                    <h2><a href="single-cause.html" title="" style="margin-right:130px;margin-top:20px;padding:10px">خبر عاجل</a></h2>
+                    <p>
+                      هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                      هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                      هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                    </p>
+                    <a href="donation-page.html" title="" class="donate-me" data-ripple="">عرض الخبر</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="caro-unit fadein">
+                  <div class="cause-avatar">
+                    <a href="single-cause.html" title=""><img src="images/103.jpg" alt=""></a>
+                    <div class="required-amount">
+                      <span>4</span>
+                    </div>
+                  </div>
+                  <div class="cause-meta">
+
+                    <  <h2><a href="single-cause.html" title="" style="margin-right:130px;margin-top:20px;padding:10px">خبر عاجل</a></h2>
+                      <p>
+                        هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                        هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                        هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                      </p>
+                    <a href="donation-page.html" title="" class="donate-me" data-ripple="">عرض الخبر</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="caro-unit fadein">
+                  <div class="cause-avatar">
+                    <a href="single-cause.html" title=""><img src="images/104.jpg" alt=""></a>
+                    <div class="required-amount">
+                      <span>5</span>
+                    </div>
+                  </div>
+                  <div class="cause-meta">
+
+                    <h2><a href="single-cause.html" title="" style="margin-right:130px;margin-top:20px;padding:10px">خبر عاجل</a></h2>
+                    <p>
+                      هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                      هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                      هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                    </p>
+                    <a href="donation-page.html" title="" class="donate-me" data-ripple="">عرض الخبر</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="caro-unit fadein">
+                  <div class="cause-avatar">
+                    <a href="single-cause.html" title=""><img src="images/105.jpg" alt=""></a>
+                    <div class="required-amount">
+                      <span>6</span>
+                    </div>
+                  </div>
+                  <div class="cause-meta">
+
+                    <h2><a href="single-cause.html" title="" style="margin-right:130px;margin-top:20px;padding:10px">خبر عاجل</a></h2>
+                    <p>
+                      هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                      هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                      هنا يضاف نص يحتوي على تفاصيل عن الخبر
+                    </p>
+                    <a href="donation-page.html" title="" class="donate-me" data-ripple="">عرض الخبر</a>
+                  </div>
+                </div>
+              </div>
+              <!-- pagination div -->
+              <div class="row  " style="margin-top:50px;">
+                <div class="col-md-4 text-center" >
+                  <a href="#" class="pag">pagination</a>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- our causes in 4 col -->
+
+
+
+    <!--***************************************** footer start ***************************  -->
+    <footer>
+      <div class="copyRight" style="background:black;opacity:.8;height:55px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <p style="color:white;text-align:center;padding-top:20px;">جميع الحقوق محفوظة لمركز العمل التنموي - معا © 2019 ||
+                <a href="http://www.alhamsco.com" target="_blank" alt="الهمص للتكنولوجيا والتدريب"><img src="images/7777.png" style="width:30px;height:30px;margin-right:5px;margin-left:5px;margin-top:-10px;"></a>POWERED BY
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--******************************* footer end ***************************************  -->
+    <!--******************************* scripts start ************************************  -->
+    <script src="js/jquery3.3.1.js"></script>
+    <script src="js/nprogress.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
